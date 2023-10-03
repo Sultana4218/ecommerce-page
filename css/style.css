@@ -546,6 +546,8 @@ a:hover {
     text-decoration: underline;
 }
 
+
+
 /* gallery section end */
 
 /* services section start */
@@ -681,6 +683,8 @@ a:hover {
     background-color: #f76d37;
 }
 
+
+
 /* services section end */
 
 /* client section start */
@@ -809,6 +813,7 @@ a:hover {
 .contact_section_2 {
     width: 100%;
     float: left;
+    margin-bottom: 50px;
 }
 
 .mail_section {
@@ -869,19 +874,15 @@ a:hover {
     text-align: center;
     font-size: 16px;
     color: #ffffff;
-    background-color: #d33a11;
+    background-color: #070603;
     padding: 15px 50px 12px 50px;
-    border-radius: 30px;
+    border-radius: 25px;
     display: block;
 }
 
-.main_bt a {
-    color: #ffffff;
-    background-color: #d33a11;
-}
 
 .main_bt a:hover {
-    color: #323131;
+    color: #070603;
     background-color: #ffffff;
 }
 
