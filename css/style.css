@@ -229,6 +229,11 @@ button {
     background-color: transparent !important;
 }
 
+.logo{
+    height: auto ;
+    width: 5%;
+}
+
 .header_main {
     width: 100%;
     float: left;
@@ -271,7 +276,7 @@ font-size: 30px;
 .banner_section {
     width: 100%;
     float: left;
-    background-image: url(../images/png_20230517_053629_0000\ \(1\).png);
+    background-image: url(../images/khajur\ banner.jpg);
     height: auto;
     background-size: 100%;
     padding: 10px 0px 25px 0px;
@@ -281,12 +286,12 @@ font-size: 30px;
 .banner_taital {
     width: 100%;
     float: left;
-    padding: 100px 0px;
+    padding: 90px 0px;
+    text-align: center;
 }
 
 .outstanding_text {
     width: 100%;
-    float: left;
     font-size: 60px;
     font-weight: 600;
     color: #f76d37;
@@ -295,29 +300,21 @@ font-size: 30px;
 
 .coffee_text {
     width: 100%;
-    float: left;
     font-size: 70px;
     color: #fdfcfa;
     font-weight: bold;
     padding-bottom: 0px;
+    text-align: center;
 }
 
 .there_text {
-    width: 50%;
-    float: left;
     font-size: 16px;
     color: #fff;
     margin: 0px;
     padding-bottom: 30px;
 }
 
-.learnmore_bt {
-    width: 170px;
-}
-
 .learnmore_bt a {
-    width: 100%;
-    float: left;
     padding-right: 0;
     background-color: #252525;
     color: #fff;
@@ -337,13 +334,13 @@ font-size: 30px;
 #main_slider a.carousel-control-next {
     left: 0px;
     right: -60px;
-    top: 440px;
+    top: 462px;
 }
 
 #main_slider a.carousel-control-prev {
     left: -60px;
     right: 0px;
-    top: 440px;
+    top: 462px;
 }
 
 #main_slider .carousel-control-next,
@@ -704,7 +701,6 @@ a:hover {
 }
 
 .client_text {
-    width: 100%;
     font-size: 16px;
     color: #252525;
     margin: 0 auto;
@@ -724,7 +720,7 @@ a:hover {
     position: relative;
 }
 
-.testimonial_section_2::after {
+.testimonial_section_2::after{
     content: '';
     position: absolute;
     width: 100px;
@@ -893,6 +889,9 @@ a:hover {
 /* contact section end */
 
 /* footer section start */
+.footer-logo{
+    width: 30%;
+}
 
 .footer_section {
     width: 100%;
@@ -900,6 +899,18 @@ a:hover {
     background-color: #252525;
     height: auto;
     padding: 95px 0px;
+}
+
+.footer-link{
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.footer-link:hover{
+    color: #f76d37;
+    border: 2px solid #f76d37;
 }
 
 .useful_text {
