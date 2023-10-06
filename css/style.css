@@ -210,9 +210,6 @@ button {
     width: 100%;
 }
 
-.layout_padding {
-    padding-bottom: 0px;
-}
 
 /* header section start */
 
@@ -903,6 +900,7 @@ a:hover {
 
 .carousel-indicators {
     bottom: 0px;
+    margin-bottom: 50px;
 }
 
 .carousel-indicators .active {
@@ -931,6 +929,7 @@ a:hover {
     width: 100%;
     float: left;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .mail_section {
